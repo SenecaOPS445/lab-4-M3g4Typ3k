@@ -4,7 +4,7 @@
 def is_digits(sobj):
     # place code here - loop through each character in sobj
      for char in sobj:
-      if not ('0' <= char <= '9'):
+      if not char in '0123456789':
        return False
      return True
 if __name__ == '__main__':
